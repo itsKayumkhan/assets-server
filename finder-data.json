@@ -1,0 +1,100 @@
+{
+  "finder_one_status": "active",
+  "finder_two_status": "active",
+  "common_tree": {
+    "root": [
+      { "id": "topf", "label": "Topfscheiben (Hand)", "imgKey": "cat_beton" },
+      { "id": "segmente", "label": "Schleifsegmente (Boden)", "imgKey": "cat_machine" }
+    ],
+    "topf": [
+      { "id": "beton_hand", "label": "Betonschleifer (Hand)", "imgKey": "cat_beton" },
+      { "id": "schleif_machine", "label": "Schleifmaschine (Boden)", "imgKey": "cat_machine" }
+    ],
+    "beton_hand": [
+      { "id": "standard", "label": "Standard", "imgKey": "standard" },
+      { "handle": "festool-130", "label": "Festool", "imgKey": "festool" },
+      { "handle": "hilti-130", "label": "Hilti Ø130", "imgKey": "hilti" },
+      { "handle": "hilti-150", "label": "Hilti Ø150", "imgKey": "hilti" },
+      { "handle": "flex-150", "label": "Flex Ø150", "imgKey": "flex" },
+      { "handle": "flex-180", "label": "Flex Ø180", "imgKey": "flex" }
+    ],
+    "schleif_machine": [
+      { "handle": "colibri", "label": "COLIBRI", "imgKey": "colibri" },
+      { "handle": "blastrac", "label": "BLASTRAC", "imgKey": "blastrac" },
+      { "handle": "contec", "label": "CONTEC", "imgKey": "contec" },
+      { "handle": "wolff", "label": "WOLFF", "imgKey": "wolff" },
+      { "handle": "einscheibenmaschine", "label": "Einscheibenmaschine", "imgKey": "einzel" }
+    ],
+    "segmente": [
+      { "id": "lavina", "label": "Lavina / MG", "imgKey": "lavina" },
+      { "id": "htc", "label": "HTC", "imgKey": "htc" },
+      { "id": "husqvarna", "label": "Husqvarna", "imgKey": "husqvarna" },
+      { "id": "contec_seg", "label": "Contec", "imgKey": "contec" },
+      { "id": "airtec", "label": "Airtec", "imgKey": "airtec" },
+      { "id": "profloor", "label": "Profloor", "imgKey": "profloor" },
+      { "id": "klindex", "label": "Klindex", "imgKey": "klindex" },
+      { "id": "scanmaskin", "label": "Scanmaskin", "imgKey": "scanmaskin" },
+      { "id": "wolff_seg", "label": "Wolff", "imgKey": "wolff" },
+      { "id": "ds_seg", "label": "DS / Diamatic", "imgKey": "ds" }
+    ],
+    "lavina": [
+      { "handle": "lavina-m6-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "lavina-m6-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" },
+      { "handle": "lavina-m6-holz", "label": "Holz", "imgKey": "app_holz" }
+    ],
+    "htc": [
+      { "handle": "htc-easy-change-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "htc-easy-change-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" }
+    ],
+    "wolff_seg": [
+      { "handle": "wolff-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "wolff-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" }
+    ],
+    "ds_seg": [
+      { "handle": "ds-derendinger-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "ds-derendinger-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" },
+      { "handle": "ds-derendinger-holz", "label": "Holz", "imgKey": "app_holz" }
+    ],
+    "scanmaskin": [
+      { "handle": "scanmaskin-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "scanmaskin-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" }
+    ],
+    "klindex": [
+      { "handle": "klindex-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "klindex-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" }
+    ],
+    "profloor": [
+      { "handle": "profloor-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "profloor-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" }
+    ],
+    "airtec": [
+      { "handle": "airtec-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "airtec-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" }
+    ],
+    "husqvarna": [
+      { "handle": "husqvarna-redi-lock-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "husqvarna-redi-lock-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" }
+    ],
+    "contec_seg": [
+      { "handle": "contec-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "contec-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" }
+    ],
+    "standard": [
+      { "handle": "standard-80", "label": "Ø80", "imgKey": "dia80" },
+      { "handle": "standard-100", "label": "Ø100", "imgKey": "dia80" },
+      { "id": "std-125", "label": "Ø125", "imgKey": "dia125" },
+      { "id": "std-180", "label": "Ø180", "imgKey": "dia125" }
+    ],
+    "std-125": [
+      { "handle": "std-125-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "std-125-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" },
+      { "handle": "std-125-polieren", "label": "Polieren", "imgKey": "app_polieren" },
+      { "handle": "std-125-holz", "label": "Holz", "imgKey": "app_holz" }
+    ],
+    "std-180": [
+      { "handle": "std-180-schleifen", "label": "Schleifen", "imgKey": "app_schleifen" },
+      { "handle": "std-180-entfernen", "label": "Entfernen", "imgKey": "app_entfernen" },
+      { "handle": "std-180-holz", "label": "Holz", "imgKey": "app_holz" }
+    ]
+  }
+}
